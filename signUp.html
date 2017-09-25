@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sign Up</title>
+	<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<link rel="stylesheet" type="text/css" href="lpstylesheet.css">
+<link rel="stylesheet" type="text/css" href="signUp.css">
+
+
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+</head>
+<body>
+	<div id="container">
+		<div id="header">
+			<div id="thinLine"> </div>
+			<div id="fixedHeaderWidth">
+			<a href="cPLandingPage.html"><h3>CareerPathX</h3></a>
+				<div id="menu">
+					<ul>
+						<a href="logIn.html"><li>Profile</li></a>
+						<a href="consulation.html"><li>Consultation</li>
+					   <a href="assesment.html"><li>Assessment</li></a>
+						<a href="aboutUs.html"><li>About Us</li></a>
+					</ul>
+				</div>
+			<button type="button" class="btn" onclick="document.getElementById('id01').style.display='block'">Log In</button>
+			<a href="signUp.html"><button type="button" class="btn">Sign Up</button></a>
+			</div>
+		</div>
+		<div class="bigClear"></div>
+		<div id="fixedBottomWidth">
+		<h2 style="clear: right; color: #9E3131;" align="center">Sign Up</h2>
+			<img src="carryBook.png" class="bigThree" height="125px">
+  			<img src="cap.png" class="bigThree" height="125px">
+  			<img src="briefcase.png" class="bigThree" height="125px">
+  			<div id="clearUp"></div>
+  			<div class="container">
+            <form class="form-horizontal" role="form">
+                <h2 style="position: relative; left: 20px; color:#9E3131 ">Registration</h2>
+                <div class="form-group">
+                    <label for="firstName" class="col-sm-3 control-label">Full Name</label>
+                    <div class="col-sm-9">
+                        <input type="text" id="email" placeholder="Full Name" class="form-control" autofocus>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="email" class="col-sm-3 control-label">Email</label>
+                    <div class="col-sm-9">
+                        <input type="email" id="email" placeholder="Email" class="form-control">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="password" class="col-sm-3 control-label">Password</label>
+                    <div class="col-sm-9">
+                        <input type="password" id="password" placeholder="Password" class="form-control">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="birthDate" class="col-sm-3 control-label">Date of Birth</label>
+                    <div class="col-sm-9">
+                        <input type="date" id="birthDate" class="form-control">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="country" class="col-sm-3 control-label">Province</label>
+                    <div class="col-sm-9">
+                        <select id="Province" class="form-control">
+                            <option>British Columbia</option>
+                            <option>Alberta</option>
+                            <option>Saskatchewan</option>
+                            <option>Manitoba</option>
+                            <option>Ontario</option>
+                            <option>Quebec</option>
+                            <option>Newfoundland and Labrador</option>
+                            <option>Nova Scotia</option>
+                            <option>New Brunswick</option>
+                            <option>Prince Edward Island</option>
+                        </select>
+                    </div>
+                </div> <!-- /.form-group -->
+                <div class="form-group">
+                    <label class="control-label col-sm-3">Gender</label>
+                    <div class="col-sm-6">
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <label class="radio-inline">
+                                    <input type="radio" id="femaleRadio" value="Female">Female
+                                </label>
+                            </div>
+                            <div class="col-sm-4">
+                                <label class="radio-inline">
+                                    <input type="radio" id="maleRadio" value="Male">Male
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div> <!-- /.form-group -->
+                <div class="form-group">
+                    <label class="control-label col-sm-3">Educational Status</label>
+                    <div class="col-sm-9">
+                        <div class="checkbox">
+                            <label>
+                                <input type="checkbox" id="calorieCheckbox" value="Low calorie">Undergraduate
+                            </label>
+                        </div>
+                        <div class="checkbox">
+                            <label>
+                                <input type="checkbox" id="saltCheckbox" value="Low salt">Graduate
+                            </label>
+                        </div>
+                    </div>
+                </div> <!-- /.form-group -->
+                <div class="form-group">
+                    <div class="col-sm-9 col-sm-offset-3">
+                        <div class="checkbox">
+                            <label>
+                                <input type="checkbox">I accept <a href="#">terms</a>
+                            </label>
+                        </div>
+                    </div>
+                </div> <!-- /.form-group -->
+                <div class="form-group">
+                    <div class="col-sm-9 col-sm-offset-3">
+                    </div>
+                </div>
+            </form> <!-- /form -->
+             <a href="logIn.html"><button type="button" class="btn" style="background-color: #9E3131; color: white; position: relative; right: 540px;">Register</button></a>
+
+        </div> <!-- ./container -->
+        <div class="bigClear"></div>
+        <div class="bigClear"></div>
+
+
+		</div>
+		<div id="bottomRed">
+		<h2 id="bottomLogo" align="center">CareerPathX</h2>
+		<p style="color: white;" align="center"><i>Slogan</i></p>
+		<p style="color: white;" align="center">Legal Stuff</p>
+  		</div>
+ <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+
+
+<div id="id01" class="modal">
+  
+  <form class="modal-content animate" action="action_page.php">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+      <img src="img_avatar2.png" alt="Avatar" class="avatar">
+    </div>
+
+    <div class="container">
+      <label style="float: left;"><b>Username</b></label>
+      <div id="clearUp"></div>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+      <div id="clearUp"></div>
+      <label style="float: left;"><b>Password</b></label>
+      <div id="clearUp"></div>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+       <div id="clearUp"></div>
+      <a href="logIn.html"><button type="submit">Login</button></a>
+      <input type="checkbox" checked="checked"> Remember me
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+      <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
+  </form>
+
+
+
+	</div>
+
+</body>
+</html>

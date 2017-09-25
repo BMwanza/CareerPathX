@@ -1,0 +1,46 @@
+h2{
+	font-style: sans-serif;
+	font-weight: lighter;
+	color: #9E3131;
+}
+
+#booking{
+/*	background-color: #e5e5e5;*/
+	height: 580px;
+	width: 90%;
+	position: relative;
+	left: 55px;
+	padding: 15px;
+	/*border: none;
+	border-bottom-left-radius: 15px; 
+	border-bottom-right-radius: 15px;*/
+}
+#profilePic{
+    float: left;
+    width: 225px;
+    height: 250px;
+/*    background-color: white;*/
+   /* border: none;
+    border-radius: 20px;*/
+    margin-right: 50px;
+    color: #9E3131;
+    padding: 20px;
+    position: relative;
+    left: 25px;
+}
+#profileContainer{
+    float: left;
+    background-color: #e5e5e5;
+    height: 350px;
+    position: relative;
+    left: 85px;
+    margin-right: 10px;
+}
+
+#algo{
+	height: 450px;
+	width: 900px;
+	
+	position: relative; 
+	left: 150px; 
+}

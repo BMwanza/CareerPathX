@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Profile</title>
+	<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<link rel="stylesheet" type="text/css" href="lpstylesheet.css">
+<link rel="stylesheet" type="text/css" href="logIn.css">
+
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+</head>
+<body>
+<div id="container">
+	<div id="header">
+		<div id="thinLine"> </div>
+		<div id="fixedHeaderWidth">
+			<a href="cPLandingPage.html"><h3>CareerPathX</h3></a>
+
+			<div id="menu">
+				<ul>
+					<a href="logIn.html"><li>Profile</li></a>
+					<a href="consulation.html"><li>Consultation</li>
+					<a href="assesment.html"><li>Assessment</li></a>
+					<a href="aboutUs.html"><li>About Us</li></a>
+				</ul>
+			</div>
+			<button type="button" class="btn" onclick="document.getElementById('id01').style.display='block'">Log In</button>
+			<a href="signUp.html"><button type="button" class="btn">Sign Up</button></a>
+		</div>
+	</div>
+	
+	<div class="bigClear"></div>
+
+	<div id="fixedBottomWidth">
+
+		<div id="profileContainer">
+			<img class="img-circle" src="img_avatar2.png" height="250px">
+			<div id="clearUp"></div>
+			<div id="profilePic">
+				<p class="profileData" align="center">Current Programs</p>
+				<p class="profileData" align="center">Review Assesments</p>
+				<p class="profileData" align="center">Video Bookings</p>
+			</div>
+		</div>
+
+
+		<div id="profileInfo">
+			<div id="thickLine"> </div>
+			<h2 style="float: left; color: #9E3131; margin-left: 25px;">My Summary</h2>
+			<img src="cap.png" height="60px" style="float: right; margin-right: 10px;">
+			<div id="clearUp"></div>
+			<div class="randomDiv"></div>
+			<div class="randomDiv2"></div>
+			<div id="clearUp"></div>
+			<div class="randomDiv3"></div>
+		</div>
+		<div class="bigClear"></div>
+		<div id="myPath">
+			<div id="thickLine"> </div>
+			<h2 style="float: left; color: #9E3131; margin-left: 25px;">My Path</h2>
+			<img src="path.png" height="60px" style="float: right; margin-right: 10px;">
+			<div id="clearUp"></div>
+			<div class="randomDiv"></div>
+			<div id="clearUp"></div>
+			<div class="randomDiv4"></div>
+			<div id="clearUp"></div>
+			<div class="randomDiv4"></div>
+			<div id="clearUp"></div>
+			<div class="randomDiv4"></div>
+		</div>
+		<div id="continue">
+			<div id="thickLine"> </div>
+			<h2 style="float: left; color: #9E3131; margin-left: 25px;">Continue Analysis</h2>
+			<img src="analyze.png" height="80px" style="float: right; margin-right: 15px;">
+			<div id="clearUp"></div>
+			<div class="randomDiv5">
+				<img src="algorithim.png" height="200px" style="position: relative; left: 225px; top: 30px;">
+				<p>(Algorithims)</p>
+			</div>
+		</div>
+	</div>
+
+	<div class="bigClear"></div>
+  	<div class="bigClear"></div>
+  	<div class="bigClear"></div>
+  	<div class="bigClear"></div>
+
+  	<div id="bottomRed">
+		<h2 id="bottomLogo" align="center">CareerPathX</h2>
+		<p style="color: white;" align="center"><i>Slogan</i></p>
+		<p style="color: white;" align="center">Legal Stuff</p>
+  </div>
+<div id="id01" class="modal">
+  
+  <form class="modal-content animate" action="action_page.php">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+      <img src="img_avatar2.png" alt="Avatar" class="avatar">
+    </div>
+
+    <div class="container">
+      <label style="float: left;"><b>Username</b></label>
+      <div id="clearUp"></div>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+      <div id="clearUp"></div>
+      <label style="float: left;"><b>Password</b></label>
+      <div id="clearUp"></div>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+       <div id="clearUp"></div>
+      <a href="logIn.html"><button type="submit">Login</button></a>
+      <input type="checkbox" checked="checked"> Remember me
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+      <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
+  </form>
+
+
+
+
+</div>
+</body>
+</html>
